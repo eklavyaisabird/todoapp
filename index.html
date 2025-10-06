@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="top">
+        <h1>Todo List</h1>
+        <p>Type your todo task</p>
+    </div>
+    
+    
+    <input type="text" class="text" id="userInput" placeholder="Enter your task here...">
+    <button class="input" onclick="addTodo()">Add Task</button>
+    <div class="lists">
+        <div class="list-columns">
+            <h3>To Complete</h3>
+            <div id="list" class="list"></div>
+        </div>
+        <div class="list-columns">
+            <h3>Completed</h3>
+            <div id="list-completed" class="list"></div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
