@@ -1,6 +1,6 @@
 # Todo App
 
-I made this Todo webap using plain JS and HTML/CSS to review the basics of web design. 
+I made this Todo webapp using plain JS and HTML/CSS to review some basics while working on another project. 
 
 ## Usage
 
